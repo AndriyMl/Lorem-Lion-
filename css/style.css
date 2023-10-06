@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Nova+Oval&display=swap');
+@import url('./reset.css');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+      font-size: 18px;
+      letter-spacing: 2px;
+}
+.header {
+      background-color: rgb(213, 212, 212);
+      height: 104px;
+
+}
+.conteiner {
+      max-width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+}
+.menu {
+      display: flex;
+      justify-content: space-between;
+}
+.menu_ul {
+      margin-top: 50px;
+      display: flex;
+      column-gap: 50px;
+      font-size: 24px;
+    
+}
+.logo {
+	margin-top: 35px;
+	margin-left: 50px;
+  	font-size: 30px;
+}
+
+.nav_btn {
+	position: absolute;
+	top: 40px;
+      right: 90px;
+	display: none;
+}
+
+.sir {
+      background-color: rgb(213, 212, 212);
+      position: absolute;
+      top: 40px;
+      right: 90px;
+      display: none;
+}
+
+.as {
+      width: 40px;
+      height: 35px;  
+}
